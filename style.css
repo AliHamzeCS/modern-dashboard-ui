@@ -1,0 +1,253 @@
+body {
+    background: radial-gradient(circle at top left,
+            #1A1933 0%,
+            #0B0E1A 40%,
+            #07080D 80%);
+    height: 750px;
+    white-space: hidden;
+}
+
+.main {
+    width: 287px;
+    height: 760px;
+    background: black;
+    position: relative;
+    top: -8px;
+    left: -10px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    backdrop-filter: var(--blur);
+    background: linear-gradient(180deg, rgba(255, 255, 255, .10), rgba(255, 255, 255, .02));
+    border-right: 1px solid var(--border);
+    color: white;
+    border: 0.01px solid #c58cff37;
+}
+
+h1 {
+    color: aliceblue;
+    position: relative;
+    left: 40px;
+}
+
+.main .x {
+    position: relative;
+    top: -198px;
+    font-size: 29px;
+    left: 115px;
+}
+
+.main .dash1 {
+    position: relative;
+    top: -125px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+}
+
+.main p {
+    width: 180px;
+    position: relative;
+    left: 38px;
+    top: -170px;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+.dash,
+.projects,
+.settings,
+.analytics {
+    border-radius: 15px;
+    text-align: left;
+    padding: 16px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 10px;
+    transition: 2s ease-in;
+
+}
+
+.main p:hover {
+    background: linear-gradient(90deg, #3E344E, #5B4C6E);
+}
+
+.dash {
+    background: linear-gradient(90deg, #3E344E, #5B4C6E);
+}
+
+.x {
+    color: #C58CFF;
+}
+
+main {
+    position: absolute;
+    top: 0;
+    left: 288px;
+}
+
+main .dash2 {
+    color: white;
+    position: relative;
+    left: 50px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    top: 20px;
+
+}
+
+main ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin-left: 50px;
+}
+
+main ul li {
+    border: 0.01px solid #c58cff37;
+    border-radius: 20px;
+    width: 350px;
+    height: 250px;
+}
+
+.box1,
+.box2,
+.box3 {
+    background: linear-gradient(135deg, #1c1f24cd, #14171bcb);
+
+    margin-top: 25px;
+    position: relative;
+
+    animation-name: box;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    border: 0.01px solid #c58cff37;
+}
+
+@keyframes box {
+    0% {
+        position: relative;
+        top: 0px;
+    }
+
+    50% {
+        position: relative;
+        top: -10px;
+    }
+
+    100% {
+        position: relative;
+        top: 0px;
+    }
+}
+
+.b {
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 0.7;
+    position: relative;
+    top: 40px;
+    left: 30px;
+}
+
+.bb {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+    position: relative;
+    top: 60px;
+    left: 30px;
+}
+
+footer {
+    width: 1105px;
+    margin-left: 50px;
+    margin-top: 30px;
+    height: 270px;
+    background-image: linear-gradient(135deg, #0B0E14, #141821);
+    border-radius: 30px;
+    border: 0.01px solid #c58cff37;
+}
+
+.th {
+    color: white;
+    font-weight: bold;
+    font-family: 'Outfit', sans-serif;
+    position: relative;
+    top: 15px;
+}
+
+.a {
+    display: flex;
+    color: white;
+    opacity: 0.5;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    position: relative;
+    left: 42px;
+    top: 20px;
+}
+
+.statu {
+    margin-left: 370px;
+    margin-right: 370px;
+}
+
+hr {
+    color: #1F2430;
+    width: 1053px;
+    margin: 0 auto;
+    position: relative;
+    top: 35px;
+    border: solid 0.00001px #1F2430;
+}
+
+.aa {
+    display: flex;
+    color: white;
+
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    position: relative;
+    left: 42px;
+    top: 55px;
+}
+
+.completed,
+.inProgress {
+    margin-left: 317px;
+    margin-right: 343px;
+}
+
+.hr {
+    position: relative;
+    top: 75px;
+}
+
+.aaa {
+    display: flex;
+    color: white;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    position: relative;
+    left: 42px;
+    top: 95px;
+}
+
+.completed {
+    color: green;
+}
+
+.inProgress {
+    color: yellow;
+}
