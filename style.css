@@ -7,7 +7,7 @@ body {
     white-space: hidden;
 }
 
-.main {
+.sidebar {
     width: 287px;
     height: 760px;
     background: black;
@@ -33,14 +33,14 @@ h1 {
     left: 40px;
 }
 
-.main .x {
+.sidebar .x {
     position: relative;
     top: -198px;
     font-size: 29px;
     left: 115px;
 }
 
-.main .dash1 {
+.sidebar .logo-title {
     position: relative;
     top: -125px;
     font-size: 30px;
@@ -48,7 +48,7 @@ h1 {
     font-family: 'Outfit', sans-serif;
 }
 
-.main p {
+.sidebar p {
     width: 180px;
     position: relative;
     left: 38px;
@@ -57,10 +57,8 @@ h1 {
 
 }
 
-.dash,
-.projects,
-.settings,
-.analytics {
+.nav-item-active,
+.nav-item {
     border-radius: 15px;
     text-align: left;
     padding: 16px;
@@ -72,11 +70,11 @@ h1 {
 
 }
 
-.main p:hover {
+.sidebar p:hover {
     background: linear-gradient(90deg, #3E344E, #5B4C6E);
 }
 
-.dash {
+.nav-item-active {
     background: linear-gradient(90deg, #3E344E, #5B4C6E);
 }
 
@@ -90,7 +88,7 @@ main {
     left: 288px;
 }
 
-main .dash2 {
+main .page-title {
     color: white;
     position: relative;
     left: 50px;
@@ -117,9 +115,7 @@ main ul li {
     height: 250px;
 }
 
-.box1,
-.box2,
-.box3 {
+.stat-card {
     background: linear-gradient(135deg, #1c1f24cd, #14171bcb);
 
     margin-top: 25px;
@@ -148,7 +144,7 @@ main ul li {
     }
 }
 
-.b {
+.card-title {
     color: white;
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
@@ -159,7 +155,7 @@ main ul li {
     left: 30px;
 }
 
-.bb {
+.card-value {
     color: white;
     font-size: 30px;
     font-weight: 700;
@@ -169,7 +165,7 @@ main ul li {
     left: 30px;
 }
 
-footer {
+.projects-section {
     width: 1105px;
     margin-left: 50px;
     margin-top: 30px;
@@ -179,7 +175,7 @@ footer {
     border: 0.01px solid #c58cff37;
 }
 
-.th {
+.section-title {
     color: white;
     font-weight: bold;
     font-family: 'Outfit', sans-serif;
@@ -187,7 +183,7 @@ footer {
     top: 15px;
 }
 
-.a {
+.table-header {
     display: flex;
     color: white;
     opacity: 0.5;
@@ -198,7 +194,7 @@ footer {
     top: 20px;
 }
 
-.statu {
+.table-status {
     margin-left: 370px;
     margin-right: 370px;
 }
@@ -212,7 +208,7 @@ hr {
     border: solid 0.00001px #1F2430;
 }
 
-.aa {
+.project-row {
     display: flex;
     color: white;
 
@@ -223,18 +219,18 @@ hr {
     top: 55px;
 }
 
-.completed,
-.inProgress {
+.status-completed,
+.status-progress {
     margin-left: 317px;
     margin-right: 343px;
 }
 
-.hr {
+.project-divider {
     position: relative;
     top: 75px;
 }
 
-.aaa {
+.project-row-secondary {
     display: flex;
     color: white;
     font-size: 15px;
@@ -244,10 +240,11 @@ hr {
     top: 95px;
 }
 
-.completed {
+.status-completed {
     color: green;
 }
 
-.inProgress {
+.status-progress {
     color: yellow;
 }
+
