@@ -43,4 +43,4 @@ screenshots/
 
 ## Author
 
-Hadi Hamze
+Ali Hamze
